@@ -7,3 +7,5 @@
 
 Код використовує [Markdown] (https://uk.wikipedia.org/wiki/Markdown) для форматування
 
+Конвертація Markdown -> HTML відбувається за допомогою [Pelican] (http://docs.getpelican.com/)
+
