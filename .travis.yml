@@ -8,8 +8,8 @@ script:
    - git config --global user.email "ror6ax@gmail.com"
    - git config --global user.name "Travis CI"
 after_success:
-   - git push --force "https://${GH_TOKEN}@github.com/${GITHUB_REPO}.git" master:gh-pages
+   - git push --quiet --force "https://${GH_TOKEN}@github.com/${GITHUB_REPO}.git" master:gh-pages > /dev/null 2>&1
 env:
   global:
     - GITHUB_REPO: "ntuukpi/fiot"
-    - secure: "DvUk7OqbZ1dEoYgWaeAWZKwx+LsnuzqzGcpItR6/uLNCq0Guc3uweEhOnwWWWAWopJlkrSPDxbdUjQ1zms+8uL8CnlI/q8Uf3KMUThSc1Y/CWMYNPBqz5HR2nao62XKA7/3eRw+fdhRtimzsh+JV2gaEOryh4616a8KWr51uSLqtBIPdRLt6Etqq1OUNApOLi6vSIuitivN+F1naFjzPaNXYUHI9OBKT5UFQPqbRKnz0awfwTzZH7/drypy4pVJL/mYiZ+ZhibZ/t1s/eb/hf9IK6h30S0TTX/HtJo5JiGXbb08yENov0nIqdaTbpKTAb2NFoUvkIJ3xxQguAGwMBPcIyP8QG3nurEcrg+2Z9pyvLsgCqh1t81iTF7QjppybrDdrXaF9qkT4ral4Q4yKoprf13/kiNFGiUSSH74kMIvh0ovdVNYPm6pLJ7wAgBL0fQW5X3gn+kkg1FTQ35rBKnEH4NZRVPLofRKsiM/Jb0hPWWUE0wO3zoi7OcqBJ+XJRD8d2ZXbckxIpUYG81GiPCmKm6PCQ5GJ0PHQcLRhk5JkDxs95xKg4bwC2k0mAEWGVC2AnXJcLmz/g2sFqVJvptWeWUImBwzf4Wkw9+cKYFIsL/1oYXe/hxw0DXqB9FoOTFQrncCJj04yqg0z1CQAqLITUXTM0qYlCSqcne1c0Fk="
+    - secure: "I5YULOExzuwbV+ibA6rwMieUxgs0TqY3gu1UDzTWGqu8VrfnLVAJIMyeT621z3aLBhohCRvDOjsL+GPzWCEF1biJ126j6e1RATWDlDwFTBJzgvl63RF3McNaXej+6AQDGsxoo4u4KJNsReNK3cCUJlI3IS9Iawrv1xyFwuBT89v6vcYVLFWykWfsbZnMt0sUzKiMEFnah04u2zCo3pKjf5fUXp9FL/E+HweCetXFMshLxp8QDrpVuVhCms/9Tx6V0uuGaoUGAzjjaQKoVeVgYnZPXx51CExwylW44ZegHKVLzadeLCEE6uc0Exfubv7SQrl3uwx6cXbM2YBrHVV13rOBJKE7BVkBvJXXC/fc4I9nu8p+1Yj8hbwmxH2T16QgegqhlfBc0DohN6+FjP3ooU+xfaeDZaryUZDvOvBqh5AbkTMGvlkDal4XVkNX3Cke2aCS6GCdKWjBja4ZColrz/QV9gE+O9MbONKKusr0KFy/vZC98iLErne7CdPiAoo18RjV2/rnDYm9MRNQUJa/5xqPbYaQpjG/7GwQBvSmCQMtceQNj02QOgWBTaprmwjRFyBINFzJ3a629B1Hebvig0VtB9bkJo+7BoZD4BzFg3BRjj42hqyQ3REV9WxsAkKTTz4A7FBVX4uPMrmqpRMXSM2pAzo+g4SswkJM0CUHSEQ="
