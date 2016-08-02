@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'ror6ax'
-SITENAME = u'kpi'
-SITEURL = ''
+SITENAME = u'https://ntuukpi.github.io/fiot/'
+SITEURL = 'https://ntuukpi.github.io/fiot/'
 
 PATH = 'content'
 
@@ -17,7 +17,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-
+PAGE_PATHS = ['pages']
 # Blogroll
 LINKS = (('kpi.ua', 'http://kpi.ua'),)
 
@@ -26,4 +26,4 @@ LINKS = (('kpi.ua', 'http://kpi.ua'),)
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+RELATIVE_URLS = True
