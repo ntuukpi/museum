@@ -8,7 +8,8 @@ script:
    - git config --global user.email "ror6ax@gmail.com"
    - git config --global user.name "Travis CI"
 after_success:
-   - git subtree push --prefix output --quiet --force "https://${GH_TOKEN}@github.com/${GITHUB_REPO}.git" origin gh-pages > /dev/null 2>&1
+  - git subtree push -q --prefix output "https://97c1505126d303735494c31eb1161f20e9b3552e@github.com/ntuukpi/fiot.git" gh-pages > /dev/null 2>&1
+
 env:
   global:
     - GITHUB_REPO: "ntuukpi/fiot"
