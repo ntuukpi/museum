@@ -3,8 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'ror6ax'
-SITENAME = u'https://ntuukpi.github.io/fiot/'
-SITEURL = 'https://ntuukpi.github.io/fiot/'
+SITENAME = u'https://ntuukpi.github.io/museum/'
+SITEURL = 'https://ntuukpi.github.io/museum/'
 
 PATH = 'content'
 

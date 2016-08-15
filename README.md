@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ntuukpi/fiot.svg?branch=master)](https://travis-ci.org/ntuukpi/fiot)
+[![Build Status](https://travis-ci.org/ntuukpi/museum.svg?branch=master)](https://travis-ci.org/ntuukpi/museum)
 # Кафедра технічної кібернетики
 
 Код з якого генеруються сторінки сайту знаходиться в каталозі content/pages.
